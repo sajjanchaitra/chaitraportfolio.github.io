@@ -936,6 +936,23 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+        @media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
         @media (max-width: 768px) {
             .nav-links, .nav-cta {
@@ -1067,7 +1084,7 @@
                 <div class="stat-label">Projects Completed</div>
             </div>
             <div class="stat-card reveal">
-                <div class="stat-number">25+</div>
+                <div class="stat-number">35+</div>
                 <div class="stat-label">Happy Clients</div>
             </div>
             <div class="stat-card reveal">
@@ -1133,12 +1150,11 @@
             <article class="project-card reveal">
                 <div class="project-content">
                     <span class="project-tag">Web Application</span>
-                    <h3 class="project-title">Fintech Dashboard</h3>
+                    <h3 class="project-title">IInfotanks.com</h3>
                     <p class="project-description">
-                        A comprehensive financial analytics platform with real-time data 
-                        visualization and AI-powered insights for investment professionals.
+                       IInfotanks is a company that provides data-driven marketing, lead generation, and business consulting services to other businesses.
                     </p>
-                    <a href="#" class="project-link">
+                    <a href="https://www.iinfotanks.com/" class="project-link">
                         View Project
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M7 17L17 7M17 7H7M17 7V17"/>
